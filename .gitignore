@@ -30,6 +30,10 @@ lvl*
 *fpsync*.out
 *fpsync*.err
 
+# anlys/
+anlys/movie/movies
+anlys/movie/logs
+
 # dev/
 .ipynb_checkpoints/
 
