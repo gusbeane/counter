@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export BASEPATH=/n/holylfs05/LABS/hernquist_lab/Users/abeane/Sgrbar/
+export BASEPATH=/n/holylfs05/LABS/hernquist_lab/Users/abeane/counter/
 
 export AREPO_commit=956184545147294eedcbd80516b7e635faae60cc
 export REPLACE=Sgrpro
