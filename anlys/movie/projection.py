@@ -32,7 +32,7 @@ def compute_projections(sn, COM, rng=[[-15, 15], [-15, 15]]):
     surf_area = dx * dy
     
     # First do stars
-    pos, mass = get_pos_mass(sn, [2, 3, 4])
+    pos, mass = get_pos_mass(sn, [2, 3, 4, 6])
     pos = pos - COM
 
     Hxy_s, _, _ = np.histogram2d(pos[:,0], pos[:,1], bins=(nres, nres), 

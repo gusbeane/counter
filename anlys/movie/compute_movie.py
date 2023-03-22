@@ -114,6 +114,8 @@ if __name__ == '__main__':
     Nbody = 'Nbody-iso'
     SMUGGLE = 'SMUGGLE-iso'
     SMUGGLEpro = 'SMUGGLE-flyby-pro'
+    SMUGGLEproR2 = 'SMUGGLE-flyby-R200-pro'
+    SMUGGLEproR2V6 = 'SMUGGLE-flyby-R200-Vphi60-pro'
 
     rng0 = [[-80, 80], [-80, 80]]
     rng1 = [[-5, 5], [-5, 5]]
@@ -122,6 +124,8 @@ if __name__ == '__main__':
     rng4 = [[-15, 15], [-15, 15]]
 
     pair_list = [(SMUGGLEpro, 'lvl4', rng0, 'PotMin'), # 0
+                 (SMUGGLEproR2, 'lvl4', rng0, 'PotMin'), # 1
+                 (SMUGGLEproR2V6, 'lvl4', rng0, 'PotMin'), # 2
                 ]
 
     rng_list     = [                        p[2] for p in pair_list]
